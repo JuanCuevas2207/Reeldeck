@@ -16,6 +16,7 @@ Aplicación web construida con **Next.js 14**, **Supabase** y **TailwindCSS** pa
 
 ## 📂 Estructura de Archivos
 
+```bash
 app/
 ├── index.tsx # Página principal (lista de géneros y series)
 ├── details.tsx # Página de detalle de una serie
@@ -25,10 +26,11 @@ src/
 │
 │── hooks/
 │ └── useGenres.ts # Llamados a la tabla genres (generos) en supabase
-| └── useShow.ts # Llamado a la tabla shows en supabase
+│ └── useShow.ts # Llamado a la tabla shows en supabase
 │
 │── lib/
 │ └── supabaseClient.ts # Cliente Supabase
+```
 
 ## 🚀 Como correr el proyecto
 
@@ -37,16 +39,25 @@ src/
    git clone https://github.com/tu-usuario/tu-repo.git
    cd tu-repo
 2. instalar las dependencia necesarias
+   ```bash
    npm install
-3. Crea un archivo .env en la raíz del proyecto con tus credenciales de Supabase
+4. Crea un archivo .env en la raíz del proyecto con tus credenciales de Supabase
+   NOTA: PARA FACILIDAD DE EJECUCION, ESTE ARCHIVO YA VIENE CREADO AL CLONAR EL REPOSITORIO.
+   ```bash
    EXPO_PUBLIC_SUPABASE_URL=https://<YOUR_SUPABASE_PROJECT>.supabase.co
    EXPO_PUBLIC_SUPABASE_ANON_KEY=<YOUR_SUPABASE_ANON_KEY>
-   NOTA: PARA FACILIDAD DE EJECUCION, ESTE ARCHIVO YA VIENE CREADO AL CLONAR EL REPOSITORIO.
-4. Inicia el servidor de desarrollo en el entorno de preferencia
-   * web: npm run web
-   * Android: npm run android
-   * IOS: npm run ios
-5. Si es aplicación web, esta se abrira automaticamente en el navegador. Para dispositivos moviles se debe escanear el QR que aparece en la consola o se debe tener un emulador/dispositivo móvil correspondiente.
+   ```
+5. Inicia el servidor de desarrollo en el entorno de preferencia
+   * web:
+     ```bash
+     npm run web
+   * Android:
+     ```bash
+     npm run android
+   * IOS:
+     ```bash
+     npm run ios
+6. Si es aplicación web, esta se abrira automaticamente en el navegador. Para dispositivos moviles se debe escanear el QR que aparece en la consola o se debe tener un emulador/dispositivo móvil correspondiente.
 
 ## 🗄️ Esquema de Base de Datos
 
