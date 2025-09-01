@@ -5,7 +5,7 @@ Aplicación web construida con **Next.js 14**, **Supabase** y **TailwindCSS** pa
 
 ---
 
-## 🚀 Tecnologías
+## 💻 Tecnologías
 
 - [Next.js 14](https://nextjs.org/) – Framework React
 - [Supabase](https://supabase.com/) – Base de datos Postgres + API
