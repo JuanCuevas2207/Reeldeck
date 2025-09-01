@@ -20,7 +20,7 @@ export default function Detail() {
   return (
     <ScrollView style={styles.container}>
       <TouchableOpacity onPress={() => router.push(`/`)} style={styles.backButton}>
-        <Text style={styles.backText}>← Back to Home</Text>
+        <Text style={styles.backText}>← Volver</Text>
       </TouchableOpacity>
 
       {/* Top Row: Poster + Info */}
